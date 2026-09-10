@@ -25,7 +25,7 @@ url_prefix="/youtube"
 def home():
     return render_template("index.html")
     
-@app.route("/health)
+@app.route("/health")
 def health():
     return jsonify({
         "status":"ok",
