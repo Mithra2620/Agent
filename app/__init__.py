@@ -17,7 +17,7 @@ def create_app():
     CORS(app)
     # YouTube
 app.register_blueprint(
-    youtube_bp:
+    youtube_bp,
 url_prefix="/youtube"
 )
 
